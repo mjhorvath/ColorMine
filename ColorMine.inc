@@ -1,8 +1,8 @@
 // Title: ColorMine for POV-Ray
 // Authors: Michael Horvath
-// Version: 0.1.4
+// Version: 0.1.5
 // Created: 2016-11-19
-// Updated: 2017-03-21
+// Updated: 2018-08-23
 // Description: This include file is an incomplete adaption of ColorMine 
 // located online at http://colormine.org/. Unfortunately, POV-Ray does not yet 
 // support the creation of objects in the object-oriented programming sense, so
@@ -235,7 +235,7 @@
 #macro CXYY2XYZ(Color)
 	#local X = Color.x * (Color.z / Color.y);
 	#local Y = Color.z;
-	#local Z = (1.0 - Color.x - Color.y) * (Color.z / Color.y)
+	#local Z = (1.0 - Color.x - Color.y) * (Color.z / Color.y);
 	<X,Y,Z>
 #end
 
