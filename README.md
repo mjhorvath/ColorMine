@@ -7,3 +7,5 @@ This project has been converted over to c#/.Net at http://github.com/thejoezack/
 This project has been converted over to Java at https://github.com/colormine/colormine
 
 You can find more info, color converters, and delta-e calculators at http://colormine.org.
+
+This version is very very incomplete.
